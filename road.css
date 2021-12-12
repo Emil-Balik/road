@@ -3,9 +3,10 @@ body {
   background-color: #8bc34a;
 }
 
-.race {
+.road {
   height: 100vh;
   /* www.flaticon.com */
+  /* look at: https://youtu.be/AzFOXdLSwo8 */
   background: url("https://cdn-icons-png.flaticon.com/512/3089/3089803.png") no-repeat,
     url("https://cdn-icons-png.flaticon.com/512/575/575703.png") no-repeat,
     url("https://cdn-icons-png.flaticon.com/512/179/179595.png") no-repeat,
@@ -20,6 +21,6 @@ body {
   transition: all 10s ease;
 }
 
-.race:hover {
+.road:hover {
 background-position: top 5% left 77%, top 15% left 90%, top 29% left 120%, top 42% left 97%, top 52% left 3%, top 65% left -40%, top 77% left 25%, top 88% left 3%, top 0 left 0;
 }
