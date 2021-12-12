@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background-color: #8bc34a;
+}
+
+.race {
+  height: 100vh;
+  /* www.flaticon.com */
+  background: url("https://cdn-icons-png.flaticon.com/512/3089/3089803.png") no-repeat,
+    url("https://cdn-icons-png.flaticon.com/512/575/575703.png") no-repeat,
+    url("https://cdn-icons-png.flaticon.com/512/179/179595.png") no-repeat,
+    url("https://cdn-icons-png.flaticon.com/512/3202/3202968.png") no-repeat,
+    url("https://cdn-icons-png.flaticon.com/512/2882/2882068.png") no-repeat,
+    url("https://cdn-icons-png.flaticon.com/512/3190/3190951.png") no-repeat,
+    url("https://cdn-icons-png.flaticon.com/512/2830/2830312.png") no-repeat,
+    url("https://cdn-icons-png.flaticon.com/512/2882/2882051.png") no-repeat,
+    url("https://cdn-icons-png.flaticon.com/512/358/358484.png");
+  background-size: auto 12%, auto 12%, auto 10%, auto 12%, auto 12%, auto 12%, auto 8%, auto 12%, auto 32%;
+  background-position: top 5% left 3%, top 15% left 3%, top 29% left -40%, top 42% left 3%, top 52% left 97%, top 65% left 140%, top 77% left 97%, top 88% left 97%, top 0 left 0;
+  transition: all 10s ease;
+}
+
+.race:hover {
+background-position: top 5% left 77%, top 15% left 90%, top 29% left 120%, top 42% left 97%, top 52% left 3%, top 65% left -40%, top 77% left 25%, top 88% left 3%, top 0 left 0;
+}
