@@ -18,7 +18,7 @@ body {
     url("https://cdn-icons-png.flaticon.com/512/358/358484.png");
   background-size: auto 12%, auto 12%, auto 10%, auto 12%, auto 12%, auto 12%, auto 8%, auto 12%, auto 32%;
   background-position: top 5% left 3%, top 15% left 3%, top 29% left -40%, top 42% left 3%, top 52% left 97%, top 65% left 140%, top 77% left 97%, top 88% left 97%, top 0 left 0;
-  transition: all 10s ease;
+  transition: all 10s linear;
 }
 
 .road:hover {
